@@ -1,0 +1,12 @@
+# Buat file .gitignore
+echo "node_modules/" > .gitignore
+echo ".env" >> .gitignore
+echo ".env.production" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "build/" >> .gitignore
+echo "dist/" >> .gitignore
+echo ".vercel" >> .gitignore
+echo "*.log" >> .gitignore
+
+# Cek isi .gitignore
+type .gitignore
